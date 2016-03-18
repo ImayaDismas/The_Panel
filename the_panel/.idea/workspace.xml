@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6380804d-86e1-4d35-92ef-704e38e5edd8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/models.py" afterPath="$PROJECT_DIR$/blog/models.py" />
-    </list>
+    <list default="true" id="6380804d-86e1-4d35-92ef-704e38e5edd8" name="Default" comment="" />
     <ignored path="the_panel.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
