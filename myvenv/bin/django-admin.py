@@ -1,4 +1,4 @@
-#!/home/imaya/The_Panel/myvenv/bin/python3
+#!/home/imayadismas/The_Panel/myvenv/bin/python3.4
 from django.core import management
 
 if __name__ == "__main__":
