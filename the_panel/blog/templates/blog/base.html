@@ -10,15 +10,22 @@
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 </head>
 <body>
-    <div class="heading">
+    <div class="page-header heading">
+        {% if user.is_authenticated %}
+            <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+        {% endif %}
         <h1 class="page-header"><a href="/">The Tech Panel</a></h1>
     </div>
 
     <div class="content container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-9">
             {% block content %}
             {% endblock %}
+            </div>
+            <div class="col-md-3">
+                <h4>Developed by:</h4>
+                <h2>Imaya Dismas</h2>
             </div>
         </div>
     </div>
